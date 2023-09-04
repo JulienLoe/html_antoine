@@ -14,10 +14,10 @@
 
     </header>
     <main class="container">
-        <h1 class="text-secondary text-center">Demo - Tableaux</h1>
+        <h1 class="text fw-light text-start">Listes des contacts</h1>
         <hr>
 
-        <table class="table table rounded overflow-hidden">
+        <table class="table table rounded overflow-hidden text-center align-middle">
             <thead>
                 <tr>
                     <th>id</th>
@@ -125,9 +125,15 @@
             </tbody>
         </table>
 
-        <h1 class="text fw-light text-start">Listes des contacts</h1>
+        <div class="text-end">
+            <button class="btn btn-outline-success">
+                <span class="bi bi-plus-circle"></span> Ajouter un Contact
+            </button>
+        </div>
 
-        <table class="table table table-dark table-striped rounded overflow-hidden">
+        <h1 class="text fw-light text-start">Listes des Auteurs</h1>
+
+        <table class="table table table-dark table-striped rounded overflow-hidden text-center align-middle">
             <thead>
                 <tr>
                     <th>#</th>
@@ -145,7 +151,7 @@
                     <td>Nom inconnu</td>
                     <td>14 Décembre 2022</td>
                     <td>
-                        <ul>
+                        <ul class="text-start">
                             <li>Ouvrage n°1</li>
                             <li>Ouvrage n°2</li>
                             <li>Ouvrage n°3</li>
@@ -169,7 +175,7 @@
                     <td>Nom inconnu</td>
                     <td>14 Décembre 2022</td>
                     <td>
-                        <ul>
+                        <ul class="text-start">
                             <li>Ouvrage n°1</li>
                             <li>Ouvrage n°2</li>
                             <li>Ouvrage n°3</li>
@@ -193,31 +199,7 @@
                     <td>Nom inconnu</td>
                     <td>14 Décembre 2022</td>
                     <td>
-                        <ul>
-                            <li>Ouvrage n°1</li>
-                            <li>Ouvrage n°2</li>
-                            <li>Ouvrage n°3</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <button class="btn btn-outline-info">
-                            <span class="bi bi-eye"></span> Details
-                        </button>
-                        <button class="btn btn-outline-secondary">
-                            <span class="bi bi-pencil-square"></span> Edit
-                        </button>
-                        <button class="btn btn-outline-danger">
-                            <span class="bi bi-trash"></span> Delete
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td ><img width="80px" height="80px" src="./unknown_author.webp" alt="..." class="img-fluid rounded-circle rounded-sm "></td>
-                    <td>14 Décembre 2022</td>
-                    <td>unknown@example.com</td>
-                    <td>
-                        <ul>
+                        <ul class="text-start">
                             <li>Ouvrage n°1</li>
                             <li>Ouvrage n°2</li>
                             <li>Ouvrage n°3</li>
@@ -241,7 +223,31 @@
                     <td>Nom inconnu</td>
                     <td>14 Décembre 2022</td>
                     <td>
-                        <ul>
+                        <ul class="text-start">
+                            <li>Ouvrage n°1</li>
+                            <li>Ouvrage n°2</li>
+                            <li>Ouvrage n°3</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <button class="btn btn-outline-info">
+                            <span class="bi bi-eye"></span> Details
+                        </button>
+                        <button class="btn btn-outline-secondary">
+                            <span class="bi bi-pencil-square"></span> Edit
+                        </button>
+                        <button class="btn btn-outline-danger">
+                            <span class="bi bi-trash"></span> Delete
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td ><img width="80px" height="80px" src="./unknown_author.webp" alt="..." class="img-fluid rounded-circle rounded-sm "></td>
+                    <td>Nom inconnu</td>
+                    <td>14 Décembre 2022</td>
+                    <td>
+                        <ul class="text-start">
                             <li>Ouvrage n°1</li>
                             <li>Ouvrage n°2</li>
                             <li>Ouvrage n°3</li>
@@ -264,6 +270,11 @@
                 </tr>
             </tbody>
         </table>
+        <div class="text-end">
+        <button class="btn btn-outline-success">
+            <span class="bi bi-plus-circle"></span> Ajouter un Auteur
+        </button>
+    </div>
     </main>
     <footer>
 
