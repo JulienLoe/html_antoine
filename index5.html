@@ -14,8 +14,8 @@
 
     </header>
     <main  class="container row row-cols-lg-2  row-cols-sm-1  ">
-       <div class="bg-dark rounded overflow-hidden p-4 col-12 col-lg-8 order-lg-1 order-2 order-sm-2 ">
-        <form class="container w-100  ">
+       <div class="bg-dark rounded overflow-hidden p-4 col-12 col-lg-7 order-lg-1 order-2 order-sm-2 m-1 ">
+        <form class="container  ">
             <h1 class="text- text-start text-light display-4 pt-5 mb-1 d-none d-sm-none d-md-block ">-Ajouter un livre-</h1>
             <h1 class="text- text-start text-light display-4 pt-5 mb-1  d-sm-block d-md-none">-Infos de base-</h1>
             <hr class="text-light">
@@ -57,20 +57,25 @@
     </div>
 <div class="bg-dark col-12 order-1 rounded overflow-hidden p-4 col-lg-4 order-lg-2 order-sm-1 ">
         <form class="container w-100  ">
-            <h1 class="text- text-start text-light display-4 pt-5 mb-1 ">-Vos Langues-</h1>
+            <h1 class="text- text-start text-light display-4 pt-5 mb-1 d-none d-sm-none d-md-block ">-Vos Languages-</h1>
+            <h1 class="text- text-start text-light display-4 pt-5 mb-1  d-sm-block d-md-none">-Inscription-</h1>
             <hr class="text-light">
             <div class="container" id="select">
                 <select id="select" class="form-select" multiple aria-label="multiple select example">
+                    <optgroup label="Europe">
                     <option value="1">Europe 1</option>
                     <option value="2">Europe 2</option>
                     <option value="3">Europe 3</option>
                     <option value="4">Europe 4</option>
                     <option value="5">Europe 5</option>
+                </optgroup>
+                <optgroup label="Asie">
                     <option value="1">Asie 1</option>
                     <option value="2">Asie 2</option>
                     <option value="3">Asie 3</option>
                     <option value="4">Asie 4</option>
                     <option value="5">Asie 5</option>
+                </optgroup>
                   </select>
             </div>
             
